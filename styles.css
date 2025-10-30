@@ -1,0 +1,69 @@
+* {
+    font-family: "Libertinus Keyboard", system-ui;
+  font-style: normal;
+}
+
+body {
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 500px;
+    height: 50px;
+    
+}
+
+
+
+.header-R {
+  margin-left: auto;
+ 
+} 
+
+.post-img img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    border-style: solid 2px;
+    padding-top: 10px;
+}
+
+.post-body {
+    height: 40px;
+    width: 500px;
+    text-align: justify;
+
+}
+
+.header-L, .header-R, .icons-L, .icons-R {
+    font-size: 25px;
+
+}
+
+
+
+.post-icons {
+   display: flex;
+    height: 40px;
+    width: 500px;
+    border-style: solid 2px;
+    border-color: grey;
+}
+
+.icons-R {
+    margin-left: auto;
+    
+} 
+
+
+
